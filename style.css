@@ -1,15 +1,28 @@
 /* <!----------- essai simple -----------> */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: aquamarine;
   height: 400px;
 }
-.control{
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content{
+  width: 50%;
+}
+.swiper-slide{
+  height: 150px;
+  width: 150px;
+}
+.control {
   /* margin-top: 300px; */
   margin: 100px auto;
   width: 20%;
@@ -19,18 +32,18 @@ body{
   height: 70px;
   list-style: none;
 }
-.arrow{
+.arrow {
   width: 20px;
   height: 20px;
   background-color: rgb(134, 149, 233);
   border-radius: 50%;
   padding: 12px;
 }
-.next{
+.next {
   margin-left: 20px;
   margin-right: 10px;
 }
-.prev{
+.prev {
   margin-left: 10px;
   margin-right: 20px;
 }
